@@ -1,0 +1,5 @@
+package com.loginpage.dao;
+
+public interface UserRepository {
+
+}

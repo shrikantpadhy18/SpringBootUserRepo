@@ -1,0 +1,5 @@
+package com.loginpage.entities;
+
+public class User {
+
+}

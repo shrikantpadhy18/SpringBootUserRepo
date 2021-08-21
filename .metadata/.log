@@ -1,0 +1,1608 @@
+!SESSION 2021-08-16 15:40:30.048 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2021-08-16 15:42:40.631
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-08-16 15:42:40.631
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@178ba69f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1e4c4fda,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-08-16 15:43:17.650
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\shrikant padhy'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY Activator 1 0 2021-08-16 15:48:17.353
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 15:48:22.970
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 15:48:23.192
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 15:48:26.044
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2021-08-16 15:48:28.709
+!MESSAGE Could not download sources for antlr:antlr:2.7.7
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact antlr:antlr:jar:sources:2.7.7
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:304)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing antlr:antlr:jar:sources:2.7.7
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2021-08-16 15:48:28.716
+!MESSAGE Could not resolve artifact antlr:antlr:jar:sources:2.7.7
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2021-08-16 15:48:28.716
+!MESSAGE Missing antlr:antlr:jar:sources:2.7.7
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2021-08-16 15:48:54.645
+!MESSAGE Could not download javadoc for antlr:antlr:2.7.7
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact antlr:antlr:jar:javadoc:2.7.7
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:316)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing antlr:antlr:jar:javadoc:2.7.7
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2021-08-16 15:48:54.646
+!MESSAGE Could not resolve artifact antlr:antlr:jar:javadoc:2.7.7
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2021-08-16 15:48:54.646
+!MESSAGE Missing antlr:antlr:jar:javadoc:2.7.7
+
+!ENTRY Activator 1 0 2021-08-16 15:48:55.768
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 15:48:56.444
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 15:49:45.245
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 15:49:45.248
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@2cbb441c[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 15:49:45.340
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 15:49:45.962
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY Activator 1 0 2021-08-16 15:49:46.081
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 15:50:12.061
+!MESSAGE Boot LS startup time from start to initialized: 26593ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 15:50:12.768
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.hMJgbgpbisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 15:50:12.810
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 15:50:12.833
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 15:50:12.835
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 15:50:12.836
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 15:50:12.837
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.hMJgbgpb => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 15:50:12.858
+!MESSAGE classpath=98 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 15:50:12.867
+!MESSAGE buffering callback sts4.classpath.hMJgbgpb loginpage false 98
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 15:50:12.869
+!MESSAGE executing callback sts4.classpath.hMJgbgpb 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 15:50:14.878
+!MESSAGE executing callback sts4.classpath.hMJgbgpb FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2021-08-16 15:50:14.880
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui 2 2 2021-08-16 15:55:24.932
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY Activator 1 0 2021-08-16 15:56:44.344
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 15:56:45.324
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 15:57:56.342
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 15:57:56.575
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 15:59:37.743
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 15:59:44.856
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 15:59:45.088
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY org.eclipse.lsp4e 4 0 2021-08-16 16:02:47.539
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.jdt.LSJavaCompletionProposalComputer.asJavaProposals(LSJavaCompletionProposalComputer.java:91)
+	at org.eclipse.lsp4e.jdt.LSJavaCompletionProposalComputer.computeCompletionProposals(LSJavaCompletionProposalComputer.java:59)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.computeCompletionProposals(CompletionProposalComputerDescriptor.java:348)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalCategory.computeCompletionProposals(CompletionProposalCategory.java:340)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.collectProposals(ContentAssistProcessor.java:333)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.computeCompletionProposals(ContentAssistProcessor.java:289)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$10(AsyncCompletionProposalPopup.java:352)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$9(AsyncCompletionProposalPopup.java:351)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1756)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+
+!ENTRY Activator 1 0 2021-08-16 16:11:42.380
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 16:11:44.101
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 16:12:01.491
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-08-16 16:12:45.272
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2021-08-16 17:08:41.392
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:08:54.953
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:09:17.430
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY org.eclipse.jface 2 0 2021-08-16 17:12:33.444
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-08-16 17:12:33.444
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@376441d8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5119415f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY Activator 1 0 2021-08-16 17:12:52.050
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:12:53.048
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:12:53.400
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:12:53.838
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:12:53.995
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:12:54.648
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:12:55.757
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY org.eclipse.lsp4e 4 0 2021-08-16 17:12:56.086
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.checkMarkerResoultion(LSPCodeActionMarkerResolution.java:170)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.hasResolutions(LSPCodeActionMarkerResolution.java:192)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolution(MarkerHelpRegistry.java:264)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolutions(MarkerHelpRegistry.java:234)
+	at org.eclipse.ui.views.markers.MarkerField.annotateImage(MarkerField.java:87)
+	at org.eclipse.ui.internal.views.markers.MarkerProblemSeverityAndMessageField.update(MarkerProblemSeverityAndMessageField.java:80)
+	at org.eclipse.ui.internal.views.markers.MarkerColumnLabelProvider.update(MarkerColumnLabelProvider.java:57)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:144)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:959)
+	at org.eclipse.ui.internal.views.markers.MarkersTreeViewer.doUpdateItem(MarkersTreeViewer.java:70)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:126)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1037)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:427)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2111)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.updateChildren(AbstractTreeViewer.java:2775)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:1960)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:677)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:1966)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:677)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1936)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1893)
+	at org.eclipse.jface.viewers.StructuredViewer.lambda$3(StructuredViewer.java:1484)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1400)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:363)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1361)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1484)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:538)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1445)
+	at org.eclipse.ui.internal.views.markers.UIUpdateJob.runInUIThread(UIUpdateJob.java:103)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4001)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3629)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY Activator 1 0 2021-08-16 17:13:00.590
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:13:11.024
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:13:11.268
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:13:11.449
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:13:11.563
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2021-08-16 17:13:12.013
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "String.length()" because "typeSignature" is null
+	at org.eclipse.jdt.internal.compiler.parser.TypeConverter.createTypeReference(TypeConverter.java:145)
+	at org.eclipse.jdt.internal.core.BinaryTypeConverter.createTypeReference(BinaryTypeConverter.java:366)
+	at org.eclipse.jdt.internal.core.BinaryTypeConverter.convert(BinaryTypeConverter.java:214)
+	at org.eclipse.jdt.internal.core.BinaryTypeConverter.convert(BinaryTypeConverter.java:330)
+	at org.eclipse.jdt.internal.core.BinaryTypeConverter.buildTypeDeclaration(BinaryTypeConverter.java:111)
+	at org.eclipse.jdt.internal.codeassist.SelectionEngine.selectType(SelectionEngine.java:1612)
+	at org.eclipse.jdt.internal.core.NamedMember.resolveType(NamedMember.java:328)
+	at org.eclipse.jdt.internal.core.NamedMember.resolveType(NamedMember.java:270)
+	at org.springframework.tooling.jdt.ls.commons.java.JavaData.resolveFQName(JavaData.java:520)
+	at org.springframework.tooling.jdt.ls.commons.java.JavaData.fillTypeDescriptorData(JavaData.java:294)
+	at org.springframework.tooling.jdt.ls.commons.java.JavaData.fillTypeData(JavaData.java:302)
+	at org.springframework.tooling.jdt.ls.commons.java.JavaData.createTypeData(JavaData.java:276)
+	at org.springframework.tooling.jdt.ls.commons.java.JavaData.typeData(JavaData.java:69)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$16(STS4LanguageClientImpl.java:477)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1756)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+
+!ENTRY Activator 1 0 2021-08-16 17:13:12.755
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:13:12.901
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:13:13.097
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:13:13.324
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2021-08-16 17:13:13.435
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "String.length()" because "typeSignature" is null
+	at org.eclipse.jdt.internal.compiler.parser.TypeConverter.createTypeReference(TypeConverter.java:145)
+	at org.eclipse.jdt.internal.core.BinaryTypeConverter.createTypeReference(BinaryTypeConverter.java:366)
+	at org.eclipse.jdt.internal.core.BinaryTypeConverter.convert(BinaryTypeConverter.java:214)
+	at org.eclipse.jdt.internal.core.BinaryTypeConverter.convert(BinaryTypeConverter.java:330)
+	at org.eclipse.jdt.internal.core.BinaryTypeConverter.buildTypeDeclaration(BinaryTypeConverter.java:111)
+	at org.eclipse.jdt.internal.codeassist.SelectionEngine.selectType(SelectionEngine.java:1612)
+	at org.eclipse.jdt.internal.core.NamedMember.resolveType(NamedMember.java:328)
+	at org.eclipse.jdt.internal.core.NamedMember.resolveType(NamedMember.java:270)
+	at org.springframework.tooling.jdt.ls.commons.java.JavaData.resolveFQName(JavaData.java:520)
+	at org.springframework.tooling.jdt.ls.commons.java.JavaData.fillTypeDescriptorData(JavaData.java:294)
+	at org.springframework.tooling.jdt.ls.commons.java.JavaData.fillTypeData(JavaData.java:302)
+	at org.springframework.tooling.jdt.ls.commons.java.JavaData.createTypeData(JavaData.java:276)
+	at org.springframework.tooling.jdt.ls.commons.java.JavaData.typeData(JavaData.java:69)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$16(STS4LanguageClientImpl.java:477)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1756)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+
+!ENTRY Activator 1 0 2021-08-16 17:13:14.229
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:13:14.410
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY org.eclipse.lsp4e 4 0 2021-08-16 17:13:15.114
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.checkMarkerResoultion(LSPCodeActionMarkerResolution.java:170)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.hasResolutions(LSPCodeActionMarkerResolution.java:192)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolution(MarkerHelpRegistry.java:264)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolutions(MarkerHelpRegistry.java:234)
+	at org.eclipse.ui.views.markers.MarkerField.annotateImage(MarkerField.java:87)
+	at org.eclipse.ui.internal.views.markers.MarkerProblemSeverityAndMessageField.update(MarkerProblemSeverityAndMessageField.java:80)
+	at org.eclipse.ui.internal.views.markers.MarkerColumnLabelProvider.update(MarkerColumnLabelProvider.java:57)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:144)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:959)
+	at org.eclipse.ui.internal.views.markers.MarkersTreeViewer.doUpdateItem(MarkersTreeViewer.java:70)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:126)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1037)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:427)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2111)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.updateChildren(AbstractTreeViewer.java:2775)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:1960)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:677)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:1966)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:677)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1936)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1893)
+	at org.eclipse.jface.viewers.StructuredViewer.lambda$3(StructuredViewer.java:1484)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1400)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:363)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1361)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1484)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:538)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1445)
+	at org.eclipse.ui.internal.views.markers.UIUpdateJob.runInUIThread(UIUpdateJob.java:103)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4001)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3629)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY Activator 1 0 2021-08-16 17:13:15.289
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:13:15.545
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:13:16.676
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY org.eclipse.lsp4e 4 0 2021-08-16 17:13:16.977
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.checkMarkerResoultion(LSPCodeActionMarkerResolution.java:170)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.hasResolutions(LSPCodeActionMarkerResolution.java:192)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolution(MarkerHelpRegistry.java:264)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolutions(MarkerHelpRegistry.java:234)
+	at org.eclipse.ui.views.markers.MarkerField.annotateImage(MarkerField.java:87)
+	at org.eclipse.ui.internal.views.markers.MarkerProblemSeverityAndMessageField.update(MarkerProblemSeverityAndMessageField.java:80)
+	at org.eclipse.ui.internal.views.markers.MarkerColumnLabelProvider.update(MarkerColumnLabelProvider.java:57)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:144)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:959)
+	at org.eclipse.ui.internal.views.markers.MarkersTreeViewer.doUpdateItem(MarkersTreeViewer.java:70)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:126)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1037)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:427)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2111)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.updateChildren(AbstractTreeViewer.java:2775)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:1960)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:677)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:1966)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:677)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1936)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1893)
+	at org.eclipse.jface.viewers.StructuredViewer.lambda$3(StructuredViewer.java:1484)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1400)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:363)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1361)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1484)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:538)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1445)
+	at org.eclipse.ui.internal.views.markers.UIUpdateJob.runInUIThread(UIUpdateJob.java:103)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4001)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3629)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY Activator 1 0 2021-08-16 17:13:17.105
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:13:17.257
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:13:17.400
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:13:18.724
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:13:19.636
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:13:20.380
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:14:11.621
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:14:12.376
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:14:52.723
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:14:53.095
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:14:53.372
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:14:53.743
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:14:54.221
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:14:54.463
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:14:55.305
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:14:55.564
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:14:55.909
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:14:56.113
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:14:57.252
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:14:57.901
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:14:58.047
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:15:00.185
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:15:00.396
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:15:00.704
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:15:00.963
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:15:01.312
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:15:02.579
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:15:09.654
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:15:09.782
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:15:10.865
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:15:16.173
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:15:16.341
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:15:16.515
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:15:16.680
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:15:17.936
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:15:18.032
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:15:18.135
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:15:19.149
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:15:19.334
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:15:19.577
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:15:19.810
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:15:20.000
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:15:20.399
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:15:20.748
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:15:21.024
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:15:21.388
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:15:22.045
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:15:22.121
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:15:23.559
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:15:42.839
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:15:43.032
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:15:48.385
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:15:49.197
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:15:49.375
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:15:55.096
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:15:55.252
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:16:03.729
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:16:04.385
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:16:04.475
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:16:04.999
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:16:05.176
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:16:05.559
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:16:05.728
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:16:05.866
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:16:06.552
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:16:06.638
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:16:17.500
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:16:17.725
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:16:17.926
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:16:18.119
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:16:18.295
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:16:19.406
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:16:19.566
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:16:19.674
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:16:19.857
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:16:20.932
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:16:21.906
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:16:22.513
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:16:22.593
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:16:24.287
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:16:24.565
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:16:24.787
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:16:25.248
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:16:25.679
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:16:26.079
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:16:26.283
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:16:27.211
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:16:27.504
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:16:28.994
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY org.eclipse.lsp4e 4 0 2021-08-16 17:16:41.673
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.operations.completion.LSIncompleteCompletionProposal.getAdditionalProposalInfo(LSIncompleteCompletionProposal.java:308)
+	at org.eclipse.lsp4e.operations.completion.LSIncompleteCompletionProposal.getAdditionalProposalInfo(LSIncompleteCompletionProposal.java:1)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY Activator 1 0 2021-08-16 17:16:57.546
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:16:57.825
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:16:58.184
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:16:58.427
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:16:58.738
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:16:59.073
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:17:00.003
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:17:00.661
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:17:00.746
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:17:01.820
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:17:02.028
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:17:02.283
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:17:03.106
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:17:03.508
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:17:03.869
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:17:04.256
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:17:04.384
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:17:04.567
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:17:04.775
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:17:05.586
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:17:05.713
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:17:08.485
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:17:09.143
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:17:09.257
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:17:09.610
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:17:09.840
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:17:10.158
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:17:10.414
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:17:10.553
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:17:11.334
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:17:11.511
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:17:11.702
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:17:11.943
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:17:12.865
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:17:13.526
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:17:13.639
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:17:14.591
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:17:14.868
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:17:15.163
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:17:15.458
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:17:15.696
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:17:15.920
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:17:16.168
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:17:17.405
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:17:17.481
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:17:18.132
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:22:45.523
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:22:46.862
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:36:01.757
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:36:05.717
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:36:20.115
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:36:23.188
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:37:15.851
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:37:16.328
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY org.eclipse.lsp4e 4 0 2021-08-16 17:37:16.503
+!MESSAGE Marker id 256 not found.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 256 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:83)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:280)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.checkMarkerResoultion(LSPCodeActionMarkerResolution.java:151)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.hasResolutions(LSPCodeActionMarkerResolution.java:192)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolution(MarkerHelpRegistry.java:264)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolutions(MarkerHelpRegistry.java:234)
+	at org.eclipse.ui.views.markers.MarkerField.annotateImage(MarkerField.java:87)
+	at org.eclipse.ui.internal.views.markers.MarkerProblemSeverityAndMessageField.update(MarkerProblemSeverityAndMessageField.java:80)
+	at org.eclipse.ui.internal.views.markers.MarkerColumnLabelProvider.update(MarkerColumnLabelProvider.java:57)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:144)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:959)
+	at org.eclipse.ui.internal.views.markers.MarkersTreeViewer.doUpdateItem(MarkersTreeViewer.java:70)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:126)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1037)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:427)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2111)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createTreeItem(AbstractTreeViewer.java:853)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:831)
+	at org.eclipse.jface.viewers.TreeViewer.createChildren(TreeViewer.java:604)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpandToLevel(AbstractTreeViewer.java:1810)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.expandToLevel(AbstractTreeViewer.java:1133)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.expandToLevel(AbstractTreeViewer.java:1105)
+	at org.eclipse.ui.internal.views.markers.ExtendedMarkersView.reexpandCategories(ExtendedMarkersView.java:1167)
+	at org.eclipse.ui.internal.views.markers.UIUpdateJob.runInUIThread(UIUpdateJob.java:106)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4001)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3629)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2021-08-16 17:37:16.504
+!MESSAGE Marker id 256 not found.
+
+!ENTRY Activator 1 0 2021-08-16 17:37:16.678
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:37:17.190
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:37:18.291
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:37:18.628
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:37:19.340
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:37:20.657
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:37:21.345
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:37:22.143
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:37:23.214
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:37:24.834
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:37:26.494
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:37:27.161
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:37:29.130
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:37:30.220
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:37:52.270
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-16 17:37:53.831
+!MESSAGE Has main method computation for project 'loginpage'
+!SESSION 2021-08-21 11:58:07.503 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2021-08-21 11:59:30.529
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-08-21 11:59:30.529
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4a14f7d7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@66596c4c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-21 11:59:53.621
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-21 11:59:53.623
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@f3cc2e0[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-21 11:59:53.761
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-21 11:59:54.331
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-08-21 11:59:58.506
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\shrikant padhy'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY Activator 1 0 2021-08-21 12:00:19.181
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-21 12:00:29.527
+!MESSAGE Boot LS startup time from start to initialized: 35606ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-21 12:00:30.753
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.FvBmuoFVisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-21 12:00:30.860
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-21 12:00:30.871
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-21 12:00:30.879
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-21 12:00:30.881
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-21 12:00:30.884
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.FvBmuoFV => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-21 12:00:31.491
+!MESSAGE classpath=98 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-21 12:00:31.522
+!MESSAGE buffering callback sts4.classpath.FvBmuoFV loginpage false 98
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-21 12:00:31.525
+!MESSAGE executing callback sts4.classpath.FvBmuoFV 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-21 12:00:33.546
+!MESSAGE executing callback sts4.classpath.FvBmuoFV FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2021-08-21 12:00:33.576
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY Activator 1 0 2021-08-21 12:00:37.195
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY org.eclipse.jface 2 0 2021-08-21 12:04:17.166
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-08-21 12:04:17.201
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@66c70e18,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1ea44b7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-08-21 12:30:05.052
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 4 0 2021-08-21 13:02:13.414
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getCompletionProposalAutoActivationCharacters(LSContentAssistProcessor.java:273)
+	at org.eclipse.jface.text.contentassist.IContentAssistProcessorExtension$1.isCompletionProposalAutoActivation(IContentAssistProcessorExtension.java:115)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.getAutoActivationTriggerType(ContentAssistant.java:1205)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.keyPressed(ContentAssistant.java:319)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.verifyKey(ContentAssistant.java:348)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:481)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:70)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1067)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:766)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:6101)
+	at org.eclipse.swt.custom.StyledText.lambda$1(StyledText.java:5795)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1067)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1094)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1519)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4882)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:345)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4760)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4930)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3624)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY Activator 1 0 2021-08-21 13:13:36.396
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:13:38.827
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:14:13.347
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:14:13.749
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:14:14.112
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:15:38.292
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:15:38.961
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:17:44.154
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:17:44.624
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:18:59.383
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:19:07.062
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:19:07.352
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:19:10.179
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:19:10.341
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:19:10.465
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:19:11.577
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:19:11.959
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:19:12.169
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:19:13.172
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:19:13.352
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:19:13.554
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:19:13.719
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:19:13.892
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:19:14.059
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:19:14.215
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:19:15.309
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:19:15.708
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:19:18.671
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:19:18.891
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY org.eclipse.ui 2 2 2021-08-21 13:19:50.229
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY Activator 1 0 2021-08-21 13:21:13.733
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:21:14.138
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:21:14.766
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:21:15.025
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:21:15.414
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:21:15.531
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:21:15.841
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:21:16.250
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:21:24.914
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:21:29.363
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:21:29.577
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:21:29.935
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:21:37.117
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:21:37.429
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:21:37.609
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:21:38.426
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:21:38.587
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:21:38.760
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:21:38.925
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:21:40.351
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:21:41.582
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:21:41.795
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:21:42.000
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:21:42.292
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:21:42.477
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:21:44.526
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:21:44.869
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:21:45.136
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:21:47.518
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:21:47.773
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:21:53.276
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:21:59.206
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:21:59.424
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:21:59.659
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:22:00.530
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:22:00.667
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:22:00.812
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:22:00.956
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:22:01.127
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:22:01.300
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:22:01.469
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:22:01.649
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:22:01.830
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:22:02.024
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:22:02.205
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:22:02.387
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:22:02.559
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:22:02.751
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:22:02.923
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:22:03.097
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:22:03.282
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:22:03.538
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:22:04.448
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:22:04.580
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:22:04.740
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:22:05.028
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:22:07.232
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:22:08.901
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:22:13.244
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY Activator 1 0 2021-08-21 13:22:13.830
+!MESSAGE Has main method computation for project 'loginpage'
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-08-21 13:34:42.975
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-08-21 13:35:33.825
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
